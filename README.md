@@ -11,6 +11,7 @@ To run the orignal JM model:
 ```bash
 [predict_data, parameters] = JM_predict(input_data);
 ```
+Note: the input_data are culmulated failire times (MTTFs), the predict_data are also model calculated culmulated failire times. If you want to convert from/to MTBFs, please use tbf2ttf.m/ttf2tbf.m.
 
 To run the non-parametric bootstrap improved JM model:
 
